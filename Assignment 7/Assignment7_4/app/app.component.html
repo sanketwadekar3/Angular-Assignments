@@ -1,0 +1,16 @@
+<h1 style="text-align:center">
+	Event Binding
+</h1>
+
+<button (click)="upper()">Upper</button><br><br>
+<button (click)="lower()">Lower</button>
+
+<div [ngSwitch]="str">
+	<div *ngSwitchCase="'upper'">
+		<h3 style="text-align:center">MARVELLOUS INFOSYSTEMS</h3>
+	</div>
+	
+	<div *ngSwitchCase="'lower'">
+		<h3 style="text-align:center">marvellous infosystems</h3>
+	</div>
+</div>

@@ -1,0 +1,13 @@
+<h1 style="text-align:center">
+	Event Binding
+</h1>
+
+<button (click)="fun()">Submit</button>
+
+<h3 *ngIf="flag; else OtherPart">Marvellous Infosystems</h3>
+
+<ng-template #OtherPart>
+	<h3>
+		Educating for Better tomorrow
+	</h3>
+</ng-template>
